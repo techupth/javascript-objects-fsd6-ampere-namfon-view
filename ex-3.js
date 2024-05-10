@@ -13,7 +13,7 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employees.name);
+console.log("Employee Name: " + employee.name); // change object name from employees to employee
 console.log("Employee Age: " + employee.age);
 console.log(
   "Employee Address: " +
@@ -21,9 +21,9 @@ console.log(
     ", " +
     employee.address.city +
     ", " +
-    employee.address.state +
+    employee.address.states + //change object key from state to states
     ", " +
     employee.address.country +
     " " +
-    employee.adress.postalCode
+    employee.address.postalCode // change object key from adress to address
 );
